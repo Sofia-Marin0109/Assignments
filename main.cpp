@@ -62,6 +62,7 @@ void menu(){
         default:
             cout<<"Please enter a valid choice (1, 2 or 3)" <<endl;
             menu();
+            break;
     };
 
 }
