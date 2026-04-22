@@ -12,7 +12,7 @@ vector<int> FailureFunction::failureFunction(string pattern) { // se crea la fun
     int n = pattern.length(); // calcula la longitud de la cadena
     vector<int> f(n); // se crea un arreglo para guardar los resultados
     int t = 0; // t contador del prefijo (rastrea la longitud del prefijo)
-    f[0] = 0; //p posición cero, (caso base) un string de un solo caracter no tiene prefijos propios, su valor de fallo siempre es cero
+    f[0] = 0; //s posición cero, (caso base) un string de un solo caracter no tiene prefijos propios, su valor de fallo siempre es cero
 
     for (int s = 1; s < n; s++) {  // for para recorrer la cadena (el patron dado) desde la posición 1
         while (t > 0 && pattern[s] != pattern[t]) {  // Si algún caracter no coincide con el patron retrocede usando valores ya calculados en vez de empezar desde cero
