@@ -1,4 +1,4 @@
-In this repository you will find a program that implements two algorithms: Failure function and KMP.
+In this repository you will find a program that implements two algorithms: Failure function and KMP made by **Jerónimo Echeverry and Sofía Marín**
 
 # Assignment 1 – Failure Function
 
